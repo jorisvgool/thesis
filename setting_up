@@ -1,0 +1,8 @@
+copy files -->
+
+cd ~/catkin_ws
+catkin clean -y
+catkin build
+source devel/setup.bash
+
+find ~/catkin_ws/src/ -type f -path "*/scripts/*.py" -exec chmod +x {} \;
