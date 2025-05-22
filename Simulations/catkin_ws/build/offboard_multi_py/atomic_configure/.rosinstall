@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/Joris/catkin_ws/devel/.private/offboard_multi_py/setup.sh
