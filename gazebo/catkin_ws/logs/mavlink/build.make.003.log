@@ -1,0 +1,705 @@
+[  3%] [34m[1mGenerating include/v1.0/icarous/icarous.h[0m
+[ 15%] [34m[1mGenerating uAvionix-v2.0-cxx-stamp[0m
+[ 15%] [34m[1mGenerating storm32-v2.0-cxx-stamp[0m
+[ 15%] [34m[1mGenerating paparazzi-v2.0-cxx-stamp[0m
+[ 15%] [34m[1mGenerating include/v1.0/csAirLink/csAirLink.h[0m
+[ 18%] [34m[1mGenerating include/v1.0/loweheiser/loweheiser.h[0m
+[ 21%] [34m[1mGenerating cubepilot-v2.0-cxx-stamp[0m
+[ 25%] [34m[1mGenerating include/v1.0/standard/standard.h[0m
+[ 28%] [34m[1mGenerating include/v1.0/paparazzi/paparazzi.h[0m
+[ 31%] [34m[1mGenerating include/v1.0/all/all.h[0m
+[ 34%] [34m[1mGenerating include/v1.0/cubepilot/cubepilot.h[0m
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/paparazzi.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 0 MAVLink message types in 1 XML files
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/csAirLink
+MAV_STORM32_GIMBAL_MANAGER_FLAGS_NONE has invalid values (bitmask must have powers of 2)
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 1 MAVLink message types in 2 XML files
+Generating C implementation in directory include/v1.0/standard
+Found 1 MAVLink message types in 2 XML files
+Generating C implementation in directory include/v1.0/loweheiser
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/minimal
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 0 MAVLink message types in 1 XML files
+Generating C implementation in directory include/v1.0/icarous
+Copying fixed headers for protocol 1.0 to include/v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 34%] Built target csAirLink.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 34%] Built target icarous.xml-v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 34%] Built target standard.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[ 34%] Built target loweheiser.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 37%] [34m[1mGenerating include/v1.0/development/development.h[0m
+[ 43%] [34m[1mGenerating icarous-v2.0-cxx-stamp[0m
+[ 43%] [34m[1mGenerating include/v1.0/ardupilotmega/ardupilotmega.h[0m
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 46%] [34m[1mGenerating all-v2.0-cxx-stamp[0m
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Found 2 MAVLink message types in 1 XML files
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/icarous
+Found 147 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/paparazzi
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/icarous
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/all.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Generating C implementation in directory include/v1.0/common
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 234 MAVLink message types in 4 XML files
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/paparazzi
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Found 234 MAVLink message types in 4 XML files
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Generating C headers
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Generating C implementation in directory include/v2.0/cubepilot
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 46%] Built target icarous.xml-v2.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/common
+Found 237 MAVLink message types in 4 XML files
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/uAvionix
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/test.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/test.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Generating C implementation in directory include/v2.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+MAV_STORM32_GIMBAL_MANAGER_FLAGS_NONE has invalid values (bitmask must have powers of 2)
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 142 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/cubepilot
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Generating C implementation in directory include/v2.0/common
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Found 195 MAVLink message types in 17 XML files
+Generating C implementation in directory include/v1.0/all
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Generating C implementation in directory include/v1.0/ardupilotmega
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+[ 50%] [34m[1mGenerating include/v1.0/ASLUAV/ASLUAV.h[0m
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Found 327 MAVLink message types in 10 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/storm32
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/ardupilotmega
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Merged enum MAV_CMD
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Found 142 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/development
+Generating C implementation in directory include/v1.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Found 190 MAVLink message types in 9 XML files
+Generating C implementation in directory include/v1.0/ardupilotmega
+Generating C implementation in directory include/v1.0/ASLUAV
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Generating C implementation in directory include/v1.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/python_array_test.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/test.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/test.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+MAV_STORM32_GIMBAL_MANAGER_FLAGS_NONE has invalid values (bitmask must have powers of 2)
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Found 372 MAVLink message types in 17 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/all
+Generating C implementation in directory include/v2.0/ardupilotmega
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Found 144 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/ASLUAV
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v1.0/common
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v2.0/ASLUAV
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 50%] Built target paparazzi.xml-v1.0
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 53%] [34m[1mGenerating include/v1.0/storm32/storm32.h[0m
+Generating C implementation in directory include/v2.0/common
+[ 53%] Built target cubepilot.xml-v1.0
+[ 56%] [34m[1mGenerating include/v1.0/uAvionix/uAvionix.h[0m
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+Generating C implementation in directory include/v1.0/standard
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/storm32.xml
+MAV_STORM32_GIMBAL_MANAGER_FLAGS_NONE has invalid values (bitmask must have powers of 2)
+Generating C implementation in directory include/v1.0/minimal
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+[ 56%] Built target development.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/development
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/python_array_test
+Generating C implementation in directory include/v1.0/standard
+[ 59%] [34m[1mGenerating include/v1.0/ualberta/ualberta.h[0m
+Generating C implementation in directory include/v1.0/test
+Generating C implementation in directory include/v1.0/ualberta
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/storm32
+Generating C implementation in directory include/v1.0/AVSSUAS
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/csAirLink
+Generating C implementation in directory include/v1.0/loweheiser
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 59%] Built target all.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 62%] [34m[1mGenerating AVSSUAS-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/loweheiser
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/csAirLink
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+[ 62%] Built target ASLUAV.xml-v1.0
+Found 190 MAVLink message types in 10 XML files
+Generating C implementation in directory include/v1.0/storm32
+Found 142 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/uAvionix
+[ 62%] Built target ardupilotmega.xml-v1.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v1.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Generating C implementation in directory include/v2.0/minimal
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/AVSSUAS.xml
+Generating C implementation in directory include/v1.0/ardupilotmega
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/paparazzi
+[ 65%] [34m[1mGenerating standard-v2.0-cxx-stamp[0m
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+[ 68%] Built target common.xml-v1.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/common
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+[ 71%] [34m[1mGenerating ardupilotmega-v2.0-cxx-stamp[0m
+Generating C++ implementation in directory include/v2.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 2 MAVLink message types in 2 XML files
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C headers
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Found 145 MAVLink message types in 4 XML files
+Generating C++ implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v1.0/ualberta
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v1.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ardupilotmega.xml
+Generating C implementation in directory include/v1.0/common
+[ 71%] Built target standard.xml-v2.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 75%] [34m[1mGenerating ASLUAV-v2.0-cxx-stamp[0m
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Found 233 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/AVSSUAS
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/common
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 75%] Built target paparazzi.xml-v2.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ASLUAV.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 75%] Built target cubepilot.xml-v2.0
+[ 78%] [34m[1mGenerating csAirLink-v2.0-cxx-stamp[0m
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 78%] Built target uAvionix.xml-v2.0
+[ 81%] [34m[1mGenerating include/v1.0/matrixpilot/matrixpilot.h[0m
+Generating C implementation in directory include/v2.0/uAvionix
+[ 84%] Built target AVSSUAS.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/uAvionix.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/icarous.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Generating C implementation in directory include/v2.0/icarous
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/cubepilot.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/loweheiser
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/csAirLink.xml
+Found 2 MAVLink message types in 1 XML files
+Merged enum MAV_CMD
+Merged enum MAV_CMD
+Generating C headers
+Generating C implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/cubepilot
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/csAirLink
+[ 87%] [34m[1mGenerating matrixpilot-v2.0-cxx-stamp[0m
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Found 319 MAVLink message types in 9 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ardupilotmega
+Generating C implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/storm32
+[ 87%] Built target csAirLink.xml-v2.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Merged enum MAV_CMD
+Found 246 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ASLUAV
+[ 90%] [34m[1mGenerating development-v2.0-cxx-stamp[0m
+Generating C++ implementation in directory include/v2.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/matrixpilot.xml
+Generating C implementation in directory include/v1.0/standard
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 90%] Built target uAvionix.xml-v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Generating C implementation in directory include/v2.0/development
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/development.xml
+Generating C implementation in directory include/v2.0/common
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C implementation in directory include/v2.0/icarous
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/minimal
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+Generating C implementation in directory include/v2.0/python_array_test
+Found 169 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v1.0/matrixpilot
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+[ 93%] [34m[1mGenerating ualberta-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/test
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v1.0/uAvionix
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v1.0/icarous
+Generating C implementation in directory include/v1.0/loweheiser
+Generating C implementation in directory include/v1.0/cubepilot
+Generating C implementation in directory include/v1.0/csAirLink
+Generating C implementation in directory include/v1.0/standard
+Copying fixed headers for protocol 1.0 to include/v1.0
+Generating C implementation in directory include/v1.0/minimal
+Generating C implementation in directory include/v2.0/storm32
+Copying fixed headers for protocol 1.0 to include/v1.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 93%] Built target ualberta.xml-v1.0
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Generating C implementation in directory include/v2.0/AVSSUAS
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/ualberta.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Merged enum MAV_CMD
+[ 93%] Built target storm32.xml-v1.0
+Generating C++ implementation in directory include/v2.0/uAvionix
+Found 256 MAVLink message types in 4 XML files
+Generating C implementation in directory include/v2.0/cubepilot
+Generating C headers
+Generating C implementation in directory include/v2.0/matrixpilot
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/loweheiser
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v1.0/common
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/csAirLink
+[ 96%] [34m[1mGenerating loweheiser-v2.0-cxx-stamp[0m
+Generating C implementation in directory include/v2.0/loweheiser
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/all
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Merged enum MAV_CMD
+[ 96%] Built target storm32.xml-v2.0
+Found 241 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/development
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/loweheiser.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Generating C implementation in directory include/v2.0/common
+Found 3 MAVLink message types in 2 XML files
+Generating C++ implementation in directory include/v2.0/common
+Generating C headers
+Generating C implementation in directory include/v2.0/loweheiser
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/loweheiser
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+[ 96%] Built target loweheiser.xml-v2.0
+Found 232 MAVLink message types in 4 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/ualberta
+Generating C implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/development
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/python_array_test
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/test
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C++ implementation in directory include/v2.0/storm32
+Generating C++ implementation in directory include/v2.0/AVSSUAS
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C++ implementation in directory include/v2.0/loweheiser
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/AVSSUAS
+Generating C++ implementation in directory include/v2.0/common
+[ 96%] Built target all.xml-v2.0
+Generating C implementation in directory include/v1.0/standard
+Generating C implementation in directory include/v1.0/minimal
+Copying fixed headers for protocol 1.0 to include/v1.0
+[ 96%] Built target matrixpilot.xml-v1.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/uAvionix
+[ 96%] Built target AVSSUAS.xml-v2.0
+Generating C implementation in directory include/v2.0/icarous
+Generating C implementation in directory include/v2.0/loweheiser
+Generating C implementation in directory include/v2.0/cubepilot
+Generating C implementation in directory include/v2.0/csAirLink
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ardupilotmega
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ASLUAV
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/matrixpilot
+[ 96%] Built target ASLUAV.xml-v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/uAvionix
+Generating C implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/icarous
+Generating C++ implementation in directory include/v2.0/loweheiser
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/cubepilot
+Generating C++ implementation in directory include/v2.0/development
+Generating C++ implementation in directory include/v2.0/csAirLink
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Generating C++ implementation in directory include/v2.0/common
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/ualberta
+Generating C++ implementation in directory include/v2.0/common
+[ 96%] Built target ardupilotmega.xml-v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 96%] Built target matrixpilot.xml-v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[ 96%] Built target development.xml-v2.0
+[ 96%] Built target ualberta.xml-v2.0
+[100%] [34m[1mGenerating common-v2.0-cxx-stamp[0m
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/standard.xml
+Validating /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Parsing /home/Joris/catkin_ws/src/mavlink/message_definitions/v1.0/minimal.xml
+Found 229 MAVLink message types in 3 XML files
+Generating C headers
+Generating C implementation in directory include/v2.0/common
+Generating C implementation in directory include/v2.0/standard
+Generating C implementation in directory include/v2.0/minimal
+Copying fixed headers for protocol 2.0 to include/v2.0
+Generating C++ implementation in directory include/v2.0/common
+Generating C++ implementation in directory include/v2.0/standard
+Generating C++ implementation in directory include/v2.0/minimal
+Copying fixed C++ headers for protocol 2.0 to include/v2.0
+[100%] Built target common.xml-v2.0
