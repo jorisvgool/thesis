@@ -1,4 +1,4 @@
-prefix=/home/Joris/catkin_ws/devel/.private/test_mavros
+prefix=/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros
 
 Name: test_mavros
 Description: Description of test_mavros

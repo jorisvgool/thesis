@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node"
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node.pdb"
   "CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o"
 )
 

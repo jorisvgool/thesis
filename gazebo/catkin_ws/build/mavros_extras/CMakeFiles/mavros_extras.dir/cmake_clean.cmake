@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.pdb"
-  "/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so"
   "CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o"
   "CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o"
   "CMakeFiles/mavros_extras.dir/src/plugins/camera.cpp.o"

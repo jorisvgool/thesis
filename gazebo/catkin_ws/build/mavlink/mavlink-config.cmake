@@ -21,7 +21,7 @@ set(mavlink2_DIALECTS ASLUAV;AVSSUAS;all;ardupilotmega;common;csAirLink;cubepilo
 foreach(lib )
   set(onelib "${lib}-NOTFOUND")
   find_library(onelib ${lib}
-      PATHS "/home/Joris/catkin_ws/devel/lib"
+      PATHS "/home/Joris/thesis/gazebo/catkin_ws/devel/lib"
     NO_DEFAULT_PATH
     )
   if(NOT onelib)

@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Mavlink.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+
 /home/Joris/catkin_ws/devel/include/mavlink/v2.0/ASLUAV/ASLUAV.hpp
 array
 -
@@ -1944,24 +1962,6 @@ sstream
 ../common/common.hpp
 /home/Joris/catkin_ws/devel/include/mavlink/v2.0/common/common.hpp
 
-/home/Joris/catkin_ws/devel/include/mavros_msgs/Mavlink.h
-string
--
-vector
--
-memory
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
-std_msgs/Header.h
--
-
 /home/Joris/catkin_ws/src/mavros/libmavconn/include/mavconn/interface.h
 boost/system/system_error.hpp
 -
@@ -2036,7 +2036,15 @@ sstream
 pthread.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/frame_tf.h
+/home/Joris/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h
+algorithm
+-
+mavros_msgs/Mavlink.h
+-
+mavconn/mavlink_dialect.h
+-
+
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/frame_tf.h
 array
 -
 Eigen/Eigen
@@ -2056,13 +2064,13 @@ geometry_msgs/Quaternion.h
 geometry_msgs/PoseWithCovariance.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/mavlink_diag.h
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/mavlink_diag.h
 diagnostic_updater/diagnostic_updater.h
 -
 mavconn/interface.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/mavros.h
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/mavros.h
 array
 -
 ros/ros.h
@@ -2078,7 +2086,7 @@ mavros/mavlink_diag.h
 mavros/utils.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/mavros_plugin.h
 tuple
 -
 vector
@@ -2092,7 +2100,7 @@ mavconn/interface.h
 mavros/mavros_uas.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/mavros_uas.h
 array
 -
 mutex
@@ -2124,7 +2132,7 @@ sensor_msgs/Imu.h
 sensor_msgs/NavSatFix.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/include/mavros/utils.h
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include/mavros/utils.h
 Eigen/Geometry
 -
 mavconn/thread_utils.h
@@ -2136,16 +2144,8 @@ mavconn/mavlink_dialect.h
 ros/console.h
 -
 
-/home/Joris/catkin_ws/src/mavros/mavros/src/mavros_node.cpp
+/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/src/mavros_node.cpp
 mavros/mavros.h
--
-
-/home/Joris/catkin_ws/src/mavros/mavros_msgs/include/mavros_msgs/mavlink_convert.h
-algorithm
--
-mavros_msgs/Mavlink.h
--
-mavconn/mavlink_dialect.h
 -
 
 /opt/ros/noetic/include/class_loader/class_loader.hpp

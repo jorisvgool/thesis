@@ -1,0 +1,18 @@
+material Custom/Grass
+{
+  technique
+  {
+    pass
+    {
+      ambient 1 1 1 1
+      diffuse 1 1 1 1
+      texture_unit
+      {
+        texture grass_texture.jpg
+        filtering anisotropic
+        max_anisotropy 16
+        scale 0.01 0.01      }
+    }
+  }
+}
+

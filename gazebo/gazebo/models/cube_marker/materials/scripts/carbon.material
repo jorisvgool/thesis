@@ -1,0 +1,13 @@
+material Gazebo/carbon
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture carbon.jpg
+      }
+    }
+  }
+}

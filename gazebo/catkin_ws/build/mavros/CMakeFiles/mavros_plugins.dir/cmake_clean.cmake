@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.pdb"
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so"
   "CMakeFiles/mavros_plugins.dir/src/plugins/3dr_radio.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o"
   "CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o"

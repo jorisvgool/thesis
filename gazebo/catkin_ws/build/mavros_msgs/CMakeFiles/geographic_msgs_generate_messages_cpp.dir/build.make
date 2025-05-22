@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros_msgs
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros_msgs
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros_msgs
 
 # Utility rule file for geographic_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/geographic_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/geographic_msgs_generate_messages_cpp.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros_msgs /home/Joris/catkin_ws/src/mavros/mavros_msgs /home/Joris/catkin_ws/build/mavros_msgs /home/Joris/catkin_ws/build/mavros_msgs /home/Joris/catkin_ws/build/mavros_msgs/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_msgs /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_msgs /home/Joris/thesis/gazebo/catkin_ws/build/mavros_msgs /home/Joris/thesis/gazebo/catkin_ws/build/mavros_msgs /home/Joris/thesis/gazebo/catkin_ws/build/mavros_msgs/CMakeFiles/geographic_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_cpp.dir/depend
 

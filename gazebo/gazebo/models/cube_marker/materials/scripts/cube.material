@@ -1,0 +1,13 @@
+material Gazebo/marker
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture marker42.png
+      }
+    }
+  }
+}

@@ -7,9 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/Joris/catkin_ws/devel/.private/test_mavros:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/Joris/catkin_ws/devel/.private/test_mavros/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/Joris/catkin_ws/devel/.private/test_mavros/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/Joris/catkin_ws/build/test_mavros'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/Joris/catkin_ws/devel/.private/test_mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/Joris/catkin_ws/src/mavros/test_mavros:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/Joris/thesis/gazebo/catkin_ws/build/test_mavros'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/Joris/catkin_ws/src/mavros/test_mavros:/home/Joris/thesis/gazebo/catkin_ws/src/mavros/test_mavros:$ROS_PACKAGE_PATH"

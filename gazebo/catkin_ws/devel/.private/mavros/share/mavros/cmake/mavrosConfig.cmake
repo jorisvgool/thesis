@@ -67,14 +67,14 @@ set(mavros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(mavros_SOURCE_PREFIX /home/Joris/catkin_ws/src/mavros/mavros)
-  set(mavros_DEVEL_PREFIX /home/Joris/catkin_ws/devel/.private/mavros)
+  set(mavros_SOURCE_PREFIX /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros)
+  set(mavros_DEVEL_PREFIX /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros)
   set(mavros_INSTALL_PREFIX "")
   set(mavros_PREFIX ${mavros_DEVEL_PREFIX})
 else()
   set(mavros_SOURCE_PREFIX "")
   set(mavros_DEVEL_PREFIX "")
-  set(mavros_INSTALL_PREFIX /home/Joris/catkin_ws/install)
+  set(mavros_INSTALL_PREFIX /home/Joris/thesis/gazebo/catkin_ws/install)
   set(mavros_PREFIX ${mavros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(mavros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/Joris/catkin_ws/src/mavros/mavros/include;/usr/include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include;/usr/include;/usr/include/eigen3 " STREQUAL " ")
   set(mavros_INCLUDE_DIRS "")
-  set(_include_dirs "/home/Joris/catkin_ws/src/mavros/mavros/include;/usr/include;/usr/include/eigen3")
+  set(_include_dirs "/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/include;/usr/include;/usr/include/eigen3")
   if(NOT "https://github.com/mavlink/mavros/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/mavlink/mavros/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/mavros " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/Joris/catkin_ws/src/mavros/mavros/include;/usr/include;/usr/includ
         message(FATAL_ERROR "Project 'mavros' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'mavros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/Joris/catkin_ws/src/mavros/mavros/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'mavros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/${idir}'.  ${_report}")
     endif()
     _list_append_unique(mavros_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/Joris/catkin_ws/devel/.private/mavros/lib;/home/Joris/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib;/home/Joris/thesis/gazebo/catkin_ws/devel/lib;/home/Joris/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,5 +1,5 @@
-offboard_multi_py
-/home/Joris/catkin_ws/devel/.private/offboard_multi_py/cmake.lock /home/Joris/catkin_ws/devel/./cmake.lock
-/home/Joris/catkin_ws/devel/.private/offboard_multi_py/lib/pkgconfig/offboard_multi_py.pc /home/Joris/catkin_ws/devel/lib/pkgconfig/offboard_multi_py.pc
-/home/Joris/catkin_ws/devel/.private/offboard_multi_py/share/offboard_multi_py/cmake/offboard_multi_pyConfig.cmake /home/Joris/catkin_ws/devel/share/offboard_multi_py/cmake/offboard_multi_pyConfig.cmake
-/home/Joris/catkin_ws/devel/.private/offboard_multi_py/share/offboard_multi_py/cmake/offboard_multi_pyConfig-version.cmake /home/Joris/catkin_ws/devel/share/offboard_multi_py/cmake/offboard_multi_pyConfig-version.cmake
+drone1_aruco
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/offboard_multi_py/cmake.lock /home/Joris/thesis/gazebo/catkin_ws/devel/./cmake.lock
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/offboard_multi_py/lib/pkgconfig/offboard_multi_py.pc /home/Joris/thesis/gazebo/catkin_ws/devel/lib/pkgconfig/offboard_multi_py.pc
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/offboard_multi_py/share/offboard_multi_py/cmake/offboard_multi_pyConfig.cmake /home/Joris/thesis/gazebo/catkin_ws/devel/share/offboard_multi_py/cmake/offboard_multi_pyConfig.cmake
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/offboard_multi_py/share/offboard_multi_py/cmake/offboard_multi_pyConfig-version.cmake /home/Joris/thesis/gazebo/catkin_ws/devel/share/offboard_multi_py/cmake/offboard_multi_pyConfig-version.cmake

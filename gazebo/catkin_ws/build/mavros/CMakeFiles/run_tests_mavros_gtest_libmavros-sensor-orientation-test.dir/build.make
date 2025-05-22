@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros
 
 # Utility rule file for run_tests_mavros_gtest_libmavros-sensor-orientation-test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros
 include CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/progress.make
 
 CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/Joris/catkin_ws/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/Joris/catkin_ws/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/run_tests.py /home/Joris/thesis/gazebo/catkin_ws/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test --gtest_output=xml:/home/Joris/thesis/gazebo/catkin_ws/build/mavros/test_results/mavros/gtest-libmavros-sensor-orientation-test.xml"
 
 run_tests_mavros_gtest_libmavros-sensor-orientation-test: CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test
 run_tests_mavros_gtest_libmavros-sensor-orientation-test: CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/clean:
 .PHONY : CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/clean
 
 CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros/CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros/CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_mavros_gtest_libmavros-sensor-orientation-test.dir/depend
 

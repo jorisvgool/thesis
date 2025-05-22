@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge"
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge.pdb"
   "CMakeFiles/gcs_bridge.dir/src/gcs_bridge.cpp.o"
 )
 

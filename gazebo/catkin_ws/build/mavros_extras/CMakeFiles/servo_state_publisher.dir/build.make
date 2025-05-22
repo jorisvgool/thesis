@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros_extras
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros_extras
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras
 
 # Include any dependencies generated for this target.
 include CMakeFiles/servo_state_publisher.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/servo_state_publisher.dir/progress.make
 include CMakeFiles/servo_state_publisher.dir/flags.make
 
 CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o: CMakeFiles/servo_state_publisher.dir/flags.make
-CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o: /home/Joris/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Joris/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o -c /home/Joris/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp
+CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o: /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o -c /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp
 
 CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Joris/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp > CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp > CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.i
 
 CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Joris/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp -o CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras/src/servo_state_publisher.cpp -o CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.s
 
 # Object files for target servo_state_publisher
 servo_state_publisher_OBJECTS = \
@@ -77,57 +77,57 @@ servo_state_publisher_OBJECTS = \
 # External object files for target servo_state_publisher
 servo_state_publisher_EXTERNAL_OBJECTS =
 
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/build.make
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libdiagnostic_updater.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libeigen_conversions.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/liborocos-kdl.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf2_ros.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libactionlib.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libmessage_filters.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf2.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/liburdf.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libclass_loader.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroslib.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librospack.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroscpp.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librostime.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libcpp_common.so
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Joris/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/build.make
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libdiagnostic_updater.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libeigen_conversions.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/liborocos-kdl.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf2_ros.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libactionlib.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libmessage_filters.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libtf2.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/liburdf.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libclass_loader.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroslib.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librospack.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroscpp.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/librostime.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /opt/ros/noetic/lib/libcpp_common.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher: CMakeFiles/servo_state_publisher.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/servo_state_publisher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/servo_state_publisher.dir/build: /home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher
+CMakeFiles/servo_state_publisher.dir/build: /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher
 
 .PHONY : CMakeFiles/servo_state_publisher.dir/build
 
@@ -136,6 +136,6 @@ CMakeFiles/servo_state_publisher.dir/clean:
 .PHONY : CMakeFiles/servo_state_publisher.dir/clean
 
 CMakeFiles/servo_state_publisher.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros_extras /home/Joris/catkin_ws/src/mavros/mavros_extras /home/Joris/catkin_ws/build/mavros_extras /home/Joris/catkin_ws/build/mavros_extras /home/Joris/catkin_ws/build/mavros_extras/CMakeFiles/servo_state_publisher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras/CMakeFiles/servo_state_publisher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/servo_state_publisher.dir/depend
 

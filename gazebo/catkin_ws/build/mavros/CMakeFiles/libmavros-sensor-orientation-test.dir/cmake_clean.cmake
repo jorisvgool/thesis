@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-sensor-orientation-test.pdb"
   "CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o"
 )
 

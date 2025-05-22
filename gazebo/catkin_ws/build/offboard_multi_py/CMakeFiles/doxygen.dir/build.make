@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/offboard_multi_py
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/drone1_aruco
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/offboard_multi_py
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/offboard_multi_py
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/Joris/catkin_ws/build/offboard_multi_py && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/offboard_multi_py /home/Joris/catkin_ws/src/offboard_multi_py /home/Joris/catkin_ws/build/offboard_multi_py /home/Joris/catkin_ws/build/offboard_multi_py /home/Joris/catkin_ws/build/offboard_multi_py/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/offboard_multi_py && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/drone1_aruco /home/Joris/thesis/gazebo/catkin_ws/src/drone1_aruco /home/Joris/thesis/gazebo/catkin_ws/build/offboard_multi_py /home/Joris/thesis/gazebo/catkin_ws/build/offboard_multi_py /home/Joris/thesis/gazebo/catkin_ws/build/offboard_multi_py/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

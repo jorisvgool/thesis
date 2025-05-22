@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros_extras
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros_extras
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras
 
 # Utility rule file for std_srvs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros_extras /home/Joris/catkin_ws/src/mavros/mavros_extras /home/Joris/catkin_ws/build/mavros_extras /home/Joris/catkin_ws/build/mavros_extras /home/Joris/catkin_ws/build/mavros_extras/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras /home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras/CMakeFiles/std_srvs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
 

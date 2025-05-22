@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros
 
 # Utility rule file for _run_tests_mavros_gtest.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_mavros_gtest.dir/clean:
 .PHONY : CMakeFiles/_run_tests_mavros_gtest.dir/clean
 
 CMakeFiles/_run_tests_mavros_gtest.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros/CMakeFiles/_run_tests_mavros_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros/CMakeFiles/_run_tests_mavros_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_mavros_gtest.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node"
-  "/home/Joris/catkin_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node.pdb"
   "CMakeFiles/sitl_test_node.dir/sitl_test/sitl_test_node.cpp.o"
 )
 

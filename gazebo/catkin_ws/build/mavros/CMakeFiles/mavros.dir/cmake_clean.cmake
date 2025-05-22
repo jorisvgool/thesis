@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros.pdb"
-  "/home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros.so"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/libmavros.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/libmavros.so"
   "CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o"
   "CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o"
   "CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o"

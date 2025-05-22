@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/Joris/catkin_ws/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/Joris/catkin_ws/build/mavros
+CMAKE_BINARY_DIR = /home/Joris/thesis/gazebo/catkin_ws/build/mavros
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libmavros-frame-conversions-test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/libmavros-frame-conversions-test.dir/progress.make
 include CMakeFiles/libmavros-frame-conversions-test.dir/flags.make
 
 CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o: CMakeFiles/libmavros-frame-conversions-test.dir/flags.make
-CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o: /home/Joris/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Joris/catkin_ws/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o -c /home/Joris/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp
+CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o: /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/Joris/thesis/gazebo/catkin_ws/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o -c /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp
 
 CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Joris/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp > CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp > CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.i
 
 CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Joris/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp -o CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros/test/test_frame_conversions.cpp -o CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.s
 
 # Object files for target libmavros-frame-conversions-test
 libmavros__frame__conversions__test_OBJECTS = \
@@ -77,52 +77,52 @@ libmavros__frame__conversions__test_OBJECTS = \
 # External object files for target libmavros-frame-conversions-test
 libmavros__frame__conversions__test_EXTERNAL_OBJECTS =
 
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/build.make
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: gtest/lib/libgtest.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /home/Joris/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libdiagnostic_updater.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libeigen_conversions.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/liborocos-kdl.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libclass_loader.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroslib.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librospack.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_bridge.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libtf2_ros.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libactionlib.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libmessage_filters.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroscpp.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libtf2.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librostime.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libcpp_common.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Joris/catkin_ws/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test"
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/build.make
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: gtest/lib/libgtest.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/libmavros.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libdiagnostic_updater.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libeigen_conversions.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/liborocos-kdl.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libclass_loader.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroslib.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librospack.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_bridge.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libtf2_ros.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libactionlib.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libmessage_filters.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroscpp.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libtf2.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/librostime.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /opt/ros/noetic/lib/libcpp_common.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test: CMakeFiles/libmavros-frame-conversions-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/Joris/thesis/gazebo/catkin_ws/build/mavros/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmavros-frame-conversions-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/libmavros-frame-conversions-test.dir/build: /home/Joris/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test
+CMakeFiles/libmavros-frame-conversions-test.dir/build: /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-frame-conversions-test
 
 .PHONY : CMakeFiles/libmavros-frame-conversions-test.dir/build
 
@@ -131,6 +131,6 @@ CMakeFiles/libmavros-frame-conversions-test.dir/clean:
 .PHONY : CMakeFiles/libmavros-frame-conversions-test.dir/clean
 
 CMakeFiles/libmavros-frame-conversions-test.dir/depend:
-	cd /home/Joris/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/src/mavros/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros /home/Joris/catkin_ws/build/mavros/CMakeFiles/libmavros-frame-conversions-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/Joris/thesis/gazebo/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros /home/Joris/thesis/gazebo/catkin_ws/build/mavros/CMakeFiles/libmavros-frame-conversions-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/libmavros-frame-conversions-test.dir/depend
 

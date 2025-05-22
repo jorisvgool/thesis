@@ -1,0 +1,12 @@
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/lib/libmavconn.so
+Warning: Source hash: 6196764bd470adb68d26ba3900a327d6
+Warning: Dest hash: dd2a5f216bd05bbcd372bc73a5640560
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/lib/pkgconfig/libmavconn.pc
+Warning: Source hash: 4e8e12b7c1fa47ca0b4d8a5ffdeef58a
+Warning: Dest hash: 1a782ce1bc26c230b1d9b65a54b637fd
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/share/libmavconn/cmake/libmavconnConfig.cmake
+Warning: Source hash: f1b18847147c6040ab4a8dd83e32d3eb
+Warning: Dest hash: 2fcd040555095e496b3d4c5fbf29f7d5
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/share/libmavconn/cmake/libmavconn-extras.cmake
+Warning: Source hash: 6768e8b21562f1b6a379b04f6fd6581a
+Warning: Dest hash: d068403b129b035e56f2cb417e14b5d3

@@ -1,0 +1,12 @@
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/lib/libmavros_extras.so
+Warning: Source hash: ed22f44d89e328260400a998354c7aed
+Warning: Dest hash: 06ed3bf29a4a8aca6c3e6d319ba96bfe
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/lib/mavros_extras/servo_state_publisher
+Warning: Source hash: 0c7869cb17ee52e156f57cf4f6348f21
+Warning: Dest hash: df59a975b559da80986dc5298e28c0a1
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/pkgconfig/mavros_extras.pc to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/lib/pkgconfig/mavros_extras.pc
+Warning: Source hash: 1a55bb35986f5fdefac0b8daf9b54894
+Warning: Dest hash: f88853b94f025faa5e7359a4ce45b87f
+Warning: Cannot symlink from /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/share/mavros_extras/cmake/mavros_extrasConfig.cmake to existing file /home/Joris/thesis/gazebo/catkin_ws/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Warning: Source hash: 4215dce01c83ef73d5f34a6c248fabf4
+Warning: Dest hash: 7071bae26c1c5e7ff74bd0353b647f95

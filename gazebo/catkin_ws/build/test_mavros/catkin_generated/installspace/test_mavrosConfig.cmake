@@ -67,14 +67,14 @@ set(test_mavros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(test_mavros_SOURCE_PREFIX /home/Joris/catkin_ws/src/mavros/test_mavros)
-  set(test_mavros_DEVEL_PREFIX /home/Joris/catkin_ws/devel/.private/test_mavros)
+  set(test_mavros_SOURCE_PREFIX /home/Joris/thesis/gazebo/catkin_ws/src/mavros/test_mavros)
+  set(test_mavros_DEVEL_PREFIX /home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros)
   set(test_mavros_INSTALL_PREFIX "")
   set(test_mavros_PREFIX ${test_mavros_DEVEL_PREFIX})
 else()
   set(test_mavros_SOURCE_PREFIX "")
   set(test_mavros_DEVEL_PREFIX "")
-  set(test_mavros_INSTALL_PREFIX /home/Joris/catkin_ws/install)
+  set(test_mavros_INSTALL_PREFIX /home/Joris/thesis/gazebo/catkin_ws/install)
   set(test_mavros_PREFIX ${test_mavros_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/Joris/catkin_ws/install/lib;/home/Joris/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/Joris/thesis/gazebo/catkin_ws/install/lib;/home/Joris/thesis/gazebo/catkin_ws/devel/lib;/home/Joris/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

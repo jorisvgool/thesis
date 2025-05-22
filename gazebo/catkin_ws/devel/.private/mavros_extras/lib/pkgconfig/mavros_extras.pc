@@ -1,4 +1,4 @@
-prefix=/home/Joris/catkin_ws/devel/.private/mavros_extras
+prefix=/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras
 
 Name: mavros_extras
 Description: Description of mavros_extras

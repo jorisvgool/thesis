@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
-  "/home/Joris/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher.pdb"
   "CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o"
 )
 

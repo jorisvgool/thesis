@@ -1,6 +1,6 @@
-devel_space: /home/Joris/catkin_ws/devel
+devel_space: /home/Joris/thesis/gazebo/catkin_ws/devel
 install: false
-install_space: /home/Joris/catkin_ws/install
+install_space: /home/Joris/thesis/gazebo/catkin_ws/install
 profile: default
-source_space: /home/Joris/catkin_ws/src
-workspace: /home/Joris/catkin_ws
+source_space: /home/Joris/thesis/gazebo/catkin_ws/src
+workspace: /home/Joris/thesis/gazebo/catkin_ws

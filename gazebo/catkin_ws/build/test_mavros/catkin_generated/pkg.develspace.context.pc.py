@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/usr/include".split(';') if "/usr/include" !=
 PROJECT_CATKIN_DEPENDS = "control_toolbox;eigen_conversions;geometry_msgs;mavros;mavros_extras;roscpp;std_msgs;tf2_ros".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0".split(';') if "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0" != "" else []
 PROJECT_NAME = "test_mavros"
-PROJECT_SPACE_DIR = "/home/Joris/catkin_ws/devel/.private/test_mavros"
+PROJECT_SPACE_DIR = "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/test_mavros"
 PROJECT_VERSION = "1.20.1"

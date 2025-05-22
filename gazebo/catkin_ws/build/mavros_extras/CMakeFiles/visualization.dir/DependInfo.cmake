@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/Joris/catkin_ws/src/mavros/mavros_extras/src/visualization.cpp" "/home/Joris/catkin_ws/build/mavros_extras/CMakeFiles/visualization.dir/src/visualization.cpp.o"
+  "/home/Joris/thesis/gazebo/catkin_ws/src/mavros/mavros_extras/src/visualization.cpp" "/home/Joris/thesis/gazebo/catkin_ws/build/mavros_extras/CMakeFiles/visualization.dir/src/visualization.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,6 +25,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/include"
   )
 
 # Targets to which this target links.

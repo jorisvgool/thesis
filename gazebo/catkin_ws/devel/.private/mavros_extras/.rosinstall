@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/Joris/catkin_ws/devel/.private/mavros_extras/setup.sh
+    local-name: /home/Joris/thesis/gazebo/catkin_ws/devel/.private/mavros_extras/setup.sh

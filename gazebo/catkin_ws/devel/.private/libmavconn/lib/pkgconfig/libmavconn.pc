@@ -1,8 +1,8 @@
-prefix=/home/Joris/catkin_ws/devel/.private/libmavconn
+prefix=/home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn
 
 Name: libmavconn
 Description: Description of libmavconn
 Version: 1.20.1
-Cflags: -I/home/Joris/catkin_ws/src/mavros/libmavconn/include -I/usr/include -I/home/Joris/catkin_ws/devel/include
+Cflags: -I/home/Joris/thesis/gazebo/catkin_ws/src/mavros/libmavconn/include -I/usr/include -I/home/Joris/thesis/gazebo/catkin_ws/devel/include
 Libs: -L${prefix}/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0 /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 Requires: 

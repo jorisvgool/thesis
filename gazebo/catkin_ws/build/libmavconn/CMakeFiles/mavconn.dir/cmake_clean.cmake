@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.pdb"
-  "/home/Joris/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/lib/libmavconn.pdb"
+  "/home/Joris/thesis/gazebo/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so"
   "CMakeFiles/mavconn.dir/catkin_generated/src/mavlink_helpers.cpp.o"
   "CMakeFiles/mavconn.dir/src/interface.cpp.o"
   "CMakeFiles/mavconn.dir/src/serial.cpp.o"

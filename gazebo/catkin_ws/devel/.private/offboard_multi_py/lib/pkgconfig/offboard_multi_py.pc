@@ -1,4 +1,4 @@
-prefix=/home/Joris/catkin_ws/devel/.private/offboard_multi_py
+prefix=/home/Joris/thesis/gazebo/catkin_ws/devel/.private/offboard_multi_py
 
 Name: offboard_multi_py
 Description: Description of offboard_multi_py
