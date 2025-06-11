@@ -1,1 +1,0 @@
-/home/Joris/catkin_ws/devel/.private/droneX/lib/pkgconfig/droneX.pc

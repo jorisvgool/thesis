@@ -1,5 +1,0 @@
-drone2
-/home/Joris/catkin_ws/devel/.private/drone2/cmake.lock /home/Joris/catkin_ws/devel/./cmake.lock
-/home/Joris/catkin_ws/devel/.private/drone2/lib/pkgconfig/drone2.pc /home/Joris/catkin_ws/devel/lib/pkgconfig/drone2.pc
-/home/Joris/catkin_ws/devel/.private/drone2/share/drone2/cmake/drone2Config.cmake /home/Joris/catkin_ws/devel/share/drone2/cmake/drone2Config.cmake
-/home/Joris/catkin_ws/devel/.private/drone2/share/drone2/cmake/drone2Config-version.cmake /home/Joris/catkin_ws/devel/share/drone2/cmake/drone2Config-version.cmake

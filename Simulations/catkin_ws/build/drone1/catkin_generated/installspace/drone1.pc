@@ -1,8 +1,0 @@
-prefix=/home/Joris/catkin_ws/install
-
-Name: drone1
-Description: Description of drone1
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

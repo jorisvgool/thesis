@@ -1,1 +1,0 @@
-/home/Joris/catkin_ws/devel/.private/drone2/lib/pkgconfig/drone2.pc

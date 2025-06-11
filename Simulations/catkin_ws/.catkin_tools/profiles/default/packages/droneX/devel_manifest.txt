@@ -1,5 +1,0 @@
-droneX
-/home/Joris/catkin_ws/devel/.private/droneX/cmake.lock /home/Joris/catkin_ws/devel/./cmake.lock
-/home/Joris/catkin_ws/devel/.private/droneX/lib/pkgconfig/droneX.pc /home/Joris/catkin_ws/devel/lib/pkgconfig/droneX.pc
-/home/Joris/catkin_ws/devel/.private/droneX/share/droneX/cmake/droneXConfig.cmake /home/Joris/catkin_ws/devel/share/droneX/cmake/droneXConfig.cmake
-/home/Joris/catkin_ws/devel/.private/droneX/share/droneX/cmake/droneXConfig-version.cmake /home/Joris/catkin_ws/devel/share/droneX/cmake/droneXConfig-version.cmake
