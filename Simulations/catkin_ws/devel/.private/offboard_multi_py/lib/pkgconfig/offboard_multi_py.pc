@@ -1,8 +1,0 @@
-prefix=/home/Joris/catkin_ws/devel/.private/offboard_multi_py
-
-Name: offboard_multi_py
-Description: Description of offboard_multi_py
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

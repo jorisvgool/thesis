@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/Joris/catkin_ws/devel/.private/droneX/setup.sh

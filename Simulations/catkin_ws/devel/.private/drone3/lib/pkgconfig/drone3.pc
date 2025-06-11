@@ -1,0 +1,8 @@
+prefix=/home/Joris/catkin_ws/devel/.private/drone3
+
+Name: drone3
+Description: Description of drone3
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

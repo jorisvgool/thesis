@@ -1,0 +1,30 @@
+<launch>
+  <!-- Launch Gazebo -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(env HOME)/gazebo/worlds/grass.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+  </include>
+
+  <!-- Drone 1 -->
+  <group ns="drone1">
+    <param name="robot_description" command="cat $(env HOME)/gazebo/models/iris1_custom/iris.sdf"/>
+
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_iris1" output="screen"
+          args="-sdf -file $(env HOME)/gazebo/models/iris1_custom/iris.sdf -model iris1_custom -x 0 -y 3 -z 0 -Y 0"/>
+
+    <node name="px4_iris1" pkg="px4" type="px4" output="screen"
+          args="$(env HOME)/PX4-Autopilot/build/px4_sitl_default/etc -s etc/init.d-posix/rcS -i 0 -d"/>
+
+    <node pkg="mavros" type="mavros_node" name="mavros1" output="screen">
+      <rosparam command="load" file="$(find mavros)/launch/px4_config.yaml" />
+      <param name="fcu_url" value="udp://:14540@localhost:14557"/>
+      <param name="gcs_url" value=""/>
+      <param name="target_system_id" value="1"/>
+      <param name="target_component_id" value="1"/>
+    </node>
+
+    <node name="control_node_1" pkg="drone1" type="control_node_1.py" output="screen"/>
+  </group>
+</launch>

@@ -1,0 +1,3 @@
+Symlinking /home/Joris/catkin_ws/devel/lib/pkgconfig/droneX.pc
+Symlinking /home/Joris/catkin_ws/devel/share/droneX/cmake/droneXConfig.cmake
+Symlinking /home/Joris/catkin_ws/devel/share/droneX/cmake/droneXConfig-version.cmake

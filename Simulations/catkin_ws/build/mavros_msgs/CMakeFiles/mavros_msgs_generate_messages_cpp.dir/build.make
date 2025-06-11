@@ -379,19 +379,19 @@ CMakeFiles/mavros_msgs_generate_messages_cpp: /home/Joris/catkin_ws/devel/.priva
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/HomePosition.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/geographic_msgs/msg/GeoPoint.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/HomePosition.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/Joris/catkin_ws/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating C++ code from mavros_msgs/HomePosition.msg"
 	cd /home/Joris/catkin_ws/src/mavros/mavros_msgs && /home/Joris/catkin_ws/build/mavros_msgs/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/HomePosition.msg -Imavros_msgs:/home/Joris/catkin_ws/src/mavros/mavros_msgs/msg -Igeographic_msgs:/opt/ros/noetic/share/geographic_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Iuuid_msgs:/opt/ros/noetic/share/uuid_msgs/cmake/../msg -p mavros_msgs -o /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/LandingTarget.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/LandingTarget.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/Joris/catkin_ws/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating C++ code from mavros_msgs/LandingTarget.msg"
@@ -481,8 +481,8 @@ CMakeFiles/mavros_msgs_generate_messages_cpp: /home/Joris/catkin_ws/devel/.priva
 
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/PositionTarget.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/PositionTarget.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/Joris/catkin_ws/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating C++ code from mavros_msgs/PositionTarget.msg"
@@ -567,9 +567,9 @@ CMakeFiles/mavros_msgs_generate_messages_cpp: /home/Joris/catkin_ws/devel/.priva
 
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/Trajectory.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /home/Joris/catkin_ws/src/mavros/mavros_msgs/msg/PositionTarget.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Vector3.msg
+/home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/Joris/catkin_ws/devel/.private/mavros_msgs/include/mavros_msgs/Trajectory.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/Joris/catkin_ws/build/mavros_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating C++ code from mavros_msgs/Trajectory.msg"

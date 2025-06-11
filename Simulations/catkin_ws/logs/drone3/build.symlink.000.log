@@ -1,0 +1,3 @@
+Symlinking /home/Joris/catkin_ws/devel/lib/pkgconfig/drone3.pc
+Symlinking /home/Joris/catkin_ws/devel/share/drone3/cmake/drone3Config-version.cmake
+Symlinking /home/Joris/catkin_ws/devel/share/drone3/cmake/drone3Config.cmake

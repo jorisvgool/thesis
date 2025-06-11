@@ -1,0 +1,8 @@
+prefix=/home/Joris/catkin_ws/install
+
+Name: droneX
+Description: Description of droneX
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
