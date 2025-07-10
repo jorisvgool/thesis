@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-# Formation control node Kalman -- version 1.5.0
-# Last edited: 11/06/2025
+# Formation control node kalman
+# Last edited: 03/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
-print("#    Formation control node Kalman -- version 1.5.0   #")
-print("#    Last edited: 11/06/2025                          #")
+print("#    Formation control node (kalman)                  #")
+print("#    Last edited: 03/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 
@@ -77,11 +77,12 @@ def main():
 
     # Simulation & kalman active?
     simulation = True
-    kalman = False
+    kalman = True
 
     # Logbook
     log_data = [] 
-    atexit.register(lambda: cf.save_log(log_data, cf.log_path() ))
+    header = ["time", "e1", "e2", "e3", "z1", "z2", "z3", "x", "y", "h"]
+    atexit.register(lambda: cf.save_log(log_data, cf.log_path(), header))
 
     # State machine
     TAKEOFF = 0
@@ -226,9 +227,13 @@ def main():
             z_pid.dt = dt
 
             # Move anchors
-            if ttime > 50:
-                b[0] += 1*dt
+            if ttime > 30:
+                b[0] += 0.69*dt
                 a = b - b0
+            
+            if ttime > 60:
+                print("simulation ended")
+                break
 
             # Positions (abolute and relative)
             p = np.array([x,y,a[0],a[1],b[0],b[1]])

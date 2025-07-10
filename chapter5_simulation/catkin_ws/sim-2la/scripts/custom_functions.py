@@ -40,11 +40,12 @@ class PID:
 
         return output
 
-def save_log(log_data, path):
+def save_log(log_data, path, header):
     import csv
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["time", "e1", "e2", "e3", "z1", "z2", "z3", "x", "y", "h"])
+        if header is not None:
+            writer.writerow(header)
         writer.writerows(log_data)
 
 def block_diag(z):

@@ -39,13 +39,12 @@ def pose_cb(msg):
 
 new_data = False
 def aruco_cb(msg):
-    global theta, zd, cx, new_data, beta
+    global theta, zd, cx, new_data
     try:
         parts = msg.data.split(',')
         theta = np.radians(float(parts[1]))
-        beta = np.radians(float(parts[2]))
-        zd = float(parts[3])/1000
-        cx = float(parts[4])
+        zd = float(parts[2])/1000
+        cx = float(parts[3])
         new_data = True
 
     except Exception as e:
@@ -60,7 +59,8 @@ def main():
 
     # Logbook
     log_data = [] 
-    atexit.register(lambda: cf.save_log(log_data, cf.log_path() ))
+    header = ["time", "e1", "e2", "e3", "zd", "theta", "yaw_dot", "x", "y", "h"]
+    atexit.register(lambda: cf.save_log(log_data, cf.log_path(), header))
 
     # State machine
     TAKEOFF = 0
@@ -78,7 +78,7 @@ def main():
     # ROS publishers
     vel_pub = rospy.Publisher("/drone2/mavros2/setpoint_velocity/cmd_vel", TwistStamped, queue_size=10)
     pos_pub = rospy.Publisher("/drone2/mavros2/setpoint_position/local", PoseStamped, queue_size=10)
-    error_pub = rospy.Publisher('error_vector', Vector3Stamped, queue_size=10)
+    # error_pub = rospy.Publisher('error_vector', Vector3Stamped, queue_size=10)
 
     # ROS services
     rospy.wait_for_service("/drone2/mavros2/cmd/arming")
@@ -92,8 +92,8 @@ def main():
 
     # General parameters
     l = 1           # distance potential exponent
-    vLIM = 0.4      # velocity limit (XY)
-    c1 = 0.5        # controller gain
+    vLIM = 1      # velocity limit (XY)
+    c1 = 0.21        # controller gain
 
     # Altitute control
     h_star = 2      # desired altitute
@@ -102,11 +102,11 @@ def main():
 
     # Yaw control
     cx_star = 400   # desired pixel centre
-    vLIMt = 0.15   # velocity limit (yaw)
-    yaw_pid = cf.PID(Kp=0.002, Ki=0.0, Kd=0.0001, dt=0.01, output_limits=(-vLIMt, vLIMt))
+    vLIMt = 0.2   # velocity limit (yaw)
+    yaw_pid = cf.PID(Kp=0.008, Ki=0.0, Kd=0.0001, dt=0.01, output_limits=(-vLIMt, vLIMt))
 
     # Start position drone (world frame)
-    t = np.array([0.0,3.0,0.0])
+    t = np.array([0.0,0.0,0.0])
 
     # Incidence matrix
     B = np.array([
@@ -209,8 +209,7 @@ def main():
                 yaw_dot = yaw_pid.compute(cx_star - cx)
 
                 # Corrective rotation matrix
-                gamma = beta - theta
-                hoek = theta-np.pi/2
+                hoek = -np.pi/2
                 ROT = np.array([
                     [np.cos(hoek), -np.sin(hoek)],
                     [np.sin(hoek),  np.cos(hoek)]
@@ -236,15 +235,15 @@ def main():
 
                 # Publish errors
                 ep = z_norm - d
-                msg = Vector3Stamped()
-                msg.header.stamp = rospy.Time.now()
-                msg.vector.x = ep[0]
-                msg.vector.y = ep[1]
-                msg.vector.z = ep[2]
-                error_pub.publish(msg)
+                # msg = Vector3Stamped()
+                # msg.header.stamp = rospy.Time.now()
+                # msg.vector.x = ep[0]
+                # msg.vector.y = ep[1]
+                # msg.vector.z = ep[2]
+                # error_pub.publish(msg)
                 
                 # Record data
-                log_data.append((current_time.to_sec()-t_start, ep[0], ep[1], ep[2], z_norm[0], z_norm[1], z_norm[2], x, y, h))
+                log_data.append((current_time.to_sec()-t_start, ep[0], ep[1], ep[2], zd, theta, yaw_dot, x, y, h))
 
             else:
                 x_dot = 0.0

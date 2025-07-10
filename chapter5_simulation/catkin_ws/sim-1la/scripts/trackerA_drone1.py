@@ -106,7 +106,7 @@ class KalmanFilter1D:
         self.H = np.array([[1.0, 0.0]])
         
         # Process (Q) and measurement (R) noise covariance
-        self.Q = np.array([[1e-4, 0.0],[0.0, 1e-2]])
+        self.Q = np.array([[1e-2, 0.0],[0.0, 1e-1]])
         self.R = np.array([[1e-1]])
     
     def predict(self):
@@ -199,51 +199,37 @@ while not rospy.is_shutdown():
 
             # Camera position in marker frame
             R = rotation_matrix.T  # invert rotation
-            t_marker_to_cam = -R @ tvec_cam
+            
+            # Calculate angle
+            angle_rad = -np.arctan2(-R[2, 0],np.sqrt(R[2, 1]**2 + R[2, 2]**2))
 
-            # Angle between marker forward and drone vector (in XY)
-            drone_vec_xy = t_marker_to_cam[:2]
-            drone_vec_xy /= np.linalg.norm(drone_vec_xy)
-            marker_fwd_xy = np.array([0, 1])  # marker forward in XY
 
-            dot = np.dot(marker_fwd_xy, drone_vec_xy)
-            cross = marker_fwd_xy[0]*drone_vec_xy[1] - marker_fwd_xy[1]*drone_vec_xy[0]
-            angle_rad = np.arctan2(cross, dot)
+            # Calculate center
+            center = tuple(np.mean(corners[i][0], axis=0).astype(int))
+
+            # Calculate misalignment angle
+            alpha = np.arctan((center[0] - c_x) / f_x)
+            angle_rad += alpha
             angle_deg = np.degrees(angle_rad)
 
-            # Alternate angle using arctangent
-            marker_x_cam = rotation_matrix[:, 0]  # marker x-axis in cam frame
-
-            dx = t_marker_to_cam[0]
-            dy = t_marker_to_cam[1]
-            beta_rad = -np.arctan2(dx, dy)
-            beta_deg = np.degrees(beta_rad)
-
-            # print(f"Beta:  {beta_deg:.2f}°")
             # print(f"Theta: {angle_deg:.2f}°")
 
             # Add to history buffers for outlier detection
             add2buffer(theta_history, marker_id, angle_deg)
             add2buffer(zd_history, marker_id, zd)
-            add2buffer(beta_history, marker_id, beta_deg)
 
             # Skip if outlier
             if (is_outlier(angle_deg, theta_history[marker_id]) or
-                is_outlier(zd, zd_history[marker_id])) or is_outlier(beta_deg, beta_history[marker_id]):
+                is_outlier(zd, zd_history[marker_id])):
                 continue
 
             # Kalman-filtering
             theta_K = kalman_estimate(theta_kalman, marker_id, angle_deg, dt)
             zd_K = kalman_estimate(zd_kalman, marker_id, zd, dt)
-            beta_k = kalman_estimate(beta_kalman, marker_id, beta_deg, dt)
-            # print(f"Beta: {beta_k:.2f}°")
-
-            # Calculate center
-            center = tuple(np.mean(corners[i][0], axis=0).astype(int))
 
             # Console output
-            output_str = f"{marker_id},{theta_K:.2f},{beta_k:.2f},{zd_K:.2f},{center[0]},{center[1]}"
-
+            output_str = f"{marker_id},{theta_K:.2f},{zd_K:.2f},{center[0]},{center[1]}"
+            
             # Publish via ROS
             pub.publish(output_str)
 

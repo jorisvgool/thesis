@@ -25,7 +25,7 @@
       <param name="target_component_id" value="1"/>
     </node>
 
-    <node name="control_node_1" pkg="sim-3g" type="control_node_1.py" output="screen"/>
+    <node name="control_node_1" pkg="sim-3gb" type="control_node_1.py" output="screen"/>
   </group>
 
   <!-- Drone 2 -->
@@ -46,7 +46,7 @@
       <param name="target_component_id" value="1"/>
     </node>
 
-    <node name="control_node_2" pkg="sim-3g" type="control_node_2.py" output="screen"/>
+    <node name="control_node_2" pkg="sim-3gb" type="control_node_2.py" output="screen"/>
   </group>
 
   <!-- Drone 3 -->
@@ -67,6 +67,6 @@
       <param name="target_component_id" value="1"/>
     </node>
 
-    <node name="control_node_3" pkg="sim-3g" type="control_node_3.py" output="screen"/>
+    <node name="control_node_3" pkg="sim-3gb" type="control_node_3.py" output="screen"/>
   </group>
 </launch>

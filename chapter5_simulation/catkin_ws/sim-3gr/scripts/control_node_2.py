@@ -87,9 +87,9 @@ def main():
     # -----------------------------------------------
 
     # General parameters
-    l = 1           # distance potential exponent
+    l = 2           # distance potential exponent
     vLIM = 10       # velocity limit
-    c1 = 0.69       # controller gain
+    c1 = 0.1       # controller gain
 
     # Altitute control
     h_star = 2      # desired altitute

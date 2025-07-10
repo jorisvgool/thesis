@@ -27,8 +27,8 @@
       <param name="target_component_id" value="1"/>
     </node>
 
-    <node name="control_node_1" pkg="sim-2a" type="control_node_1.py" output="screen"/>
-    <node name="trackerA_drone1" pkg="sim-2a" type="trackerA_drone1.py" output="screen"/>
+    <node name="control_node_1" pkg="sim-2la" type="control_node_1.py" output="screen"/>
+    <node name="trackerA_drone1" pkg="sim-2la" type="trackerA_drone1.py" output="screen"/>
   </group>
 
   <!-- Drone 2 -->
@@ -49,7 +49,7 @@
       <param name="target_component_id" value="1"/>
     </node>
 
-    <node name="control_node_2" pkg="sim-2a" type="control_node_2.py" output="screen"/>
-    <node name="trackerA_drone2" pkg="sim-2a" type="trackerA_drone2.py" output="screen"/>
+    <node name="control_node_2" pkg="sim-2la" type="control_node_2.py" output="screen"/>
+    <node name="trackerA_drone2" pkg="sim-2la" type="trackerA_drone2.py" output="screen"/>
    </group>
 </launch>

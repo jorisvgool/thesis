@@ -268,10 +268,14 @@ def main():
             z_pid.dt = dt
 
             # Move anchors
-            if ttime > 20:
-                s = 3 * np.sin((2*np.pi/15) * (ttime-50))
+            if ttime > 30:
+                s = 3 * np.sin((2*np.pi/15) * (ttime-0))
                 b[0] = b0[0] + s
                 a = b - b0
+
+            if ttime > 60:
+                print("simulation ended")
+                break
 
             # Positions (abolute and relative)
             p = np.array([x,y,a[0],a[1],b[0],b[1]])

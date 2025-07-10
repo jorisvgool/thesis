@@ -25,7 +25,6 @@ from gazebo_msgs.msg import ModelState
 from gazebo_msgs.srv import SetModelState
 from geometry_msgs.msg import Twist
 
-
 # Global callbacks
 current_state = State()
 def state_cb(msg):
@@ -94,7 +93,7 @@ def main():
     # General parameters
     l = 2           # distance potential exponent
     vLIM = 1        # velocity limit
-    c1 = 0.15        # controller gain
+    c1 = 0.1        # controller gain
 
     # Altitute control
     h_star = 2      # desired altitute

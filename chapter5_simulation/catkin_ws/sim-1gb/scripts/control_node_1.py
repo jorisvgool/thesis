@@ -118,7 +118,7 @@ def main():
     # -----------------------------------------------
 
     # ROS rate & timing
-    rate = rospy.Rate(100)
+    rate = rospy.Rate(20)
     prev_time = rospy.Time.now() if simulation else time.time()
 
     # Wait for FCU connetion
