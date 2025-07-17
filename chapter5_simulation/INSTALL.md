@@ -107,5 +107,5 @@ rospack find mavros
 
 If you encounter issues (e.g. PX4 build errors, MAVROS dependency problems, or arming checks), please refer to the official documentation:
 
-- 🔧 PX4 + MAVROS setup: https://docs.px4.io/main/en/ros/mavros_installation.html  
-- 🚀 MAVROS Offboard mode: https://docs.px4.io/main/en/ros/mavros_offboard_python.html
+- PX4 + MAVROS setup: https://docs.px4.io/main/en/ros/mavros_installation.html  
+- MAVROS Offboard mode: https://docs.px4.io/main/en/ros/mavros_offboard_python.html
