@@ -1,46 +1,54 @@
-# Drone-Sim Repository Overview
+# Quadrotor Simulation Repository Overview
 
-This repository is organised into three main items that work together to run all ROS + Gazebo simulations.
+This repository provides all necessary components to run quadrotor simulations using ROS and Gazebo. It includes multiple simulation project folders organized by chapter and scenario.
+
+> **First time setting up?** Start with the [INSTALL.md](INSTALL.md) guide to install ROS, MAVROS, PX4, and all required dependencies before using the simulations.
+
+---
+
+## Repository Structure
 
 ```
-repo-root/
-├── catkin_ws/        # ROS workspace with every simulation package
-│   └── README.md     # Detailed logic behind the package naming & flags
-├── gazebo/           # Worlds, models, media - copied to $HOME on first use
-└── init_gazebo.sh    # One-shot environment initialiser for each new shell
+thesis/
+├── chapter5_simulation/
+│   ├── INSTALL.md            # Step-by-step installation instructions (ROS, MAVROS, PX4, etc.)
+│   ├── catkin_ws/            # ROS packages for different simulations
+│   │   ├── sim-1gb/          # Example: one simulation project
+│   │   ├── sim-2gb/
+│   │   └── ...
+│   ├── gazebo/               # Gazebo models, worlds, and media
+│   ├── init_gazebo.sh        # Gazebo environment setup script
+│   ├── raw_data/             # Optional: raw experiment outputs
+│   └── README.md             # This file
 ```
 
 ---
 
-## 1 `catkin_ws/`
+## 1. `catkin_ws/`
 
-*Standard ROS 1 (Catkin) workspace.*
+This folder contains all simulation project folders (ROS packages) under `chapter5_simulation/catkin_ws/`.
 
-```bash
-cd catkin_ws
-catkin_make          # build once after cloning / pulling
-source devel/setup.bash
-```
+To use a simulation, **copy only the desired package folder** (e.g. `sim-1gs`) into your own ROS workspace under `~/catkin_ws/src/`.
 
-All simulation packages live in `catkin_ws/src/`.  
-See `catkin_ws/README.md` for the naming convention and per-package details.
+Each simulation package includes its own `launch/`, `scripts/`, and configuration files.  
+See the `README.md` inside each package for details.
 
 ---
 
-## 2 `gazebo/`
+## 2. `gazebo/`
 
-Contains **all assets Gazebo needs**:
+Contains Gazebo assets needed for the simulations:
 
 ```
 gazebo/
-├── models/    # custom or edited models
-├── worlds/    # .world descriptions
-└── media/     # textures, meshes, sounds, etc.
+├── models/    # Custom or modified 3D models
+├── worlds/    # .world files for different environments
+└── media/     # Textures, meshes, etc.
 ```
 
 ### One-time setup
 
-Copy (or symlink) this folder into your home directory so Gazebo can find it automatically:
+Copy or symlink this folder into your home directory so Gazebo can find it:
 
 ```bash
 cp -r gazebo ~/gazebo
@@ -48,53 +56,64 @@ cp -r gazebo ~/gazebo
 ln -s "$(pwd)/gazebo" ~/gazebo
 ```
 
-*(Gazebo searches `~/gazebo/models` by default.)*
+Gazebo automatically looks for models in `~/gazebo/models`.
 
 ---
 
-## 3 `init_gazebo.sh`
+## 3. `init_gazebo.sh`
 
-A helper script that **must be sourced in every terminal session** before launching a simulation.  
-It exports the required environment variables so Gazebo can locate the models and worlds in `~/gazebo`.
+This script sets up Gazebo environment variables and must be sourced at the start of every new terminal session.
 
-```bash
-# From the repo root, every new shell:
-source init_gazebo.sh
-```
-
-Typical variables set:
+Copy it to your home directory:
 
 ```bash
-export GAZEBO_MODEL_PATH="$HOME/gazebo/models:${GAZEBO_MODEL_PATH}"
-export GAZEBO_RESOURCE_PATH="$HOME/gazebo:${GAZEBO_RESOURCE_PATH}"
+cp init_gazebo.sh ~/
 ```
 
-Feel free to open the script and adjust paths if your layout differs.
+Then, at the beginning of each terminal session:
+
+```bash
+source ~/init_gazebo.sh
+```
+
+You can optionally add this line to your `~/.bashrc` to automate it:
+
+```bash
+echo 'source ~/init_gazebo.sh' >> ~/.bashrc
+```
 
 ---
 
 ## Quick-start Checklist
 
 ```bash
-# 1. Clone repo
-git clone <your-repo-url>
-cd drone-sim-repo
+# 1. Clone the repository (not recommended)
+git clone https://github.com/jorisvgool/thesis.git thesis_repo
+cd thesis_repo/chapter5_simulation
 
-# 2. Copy or symlink Gazebo assets
-cp -r gazebo ~/gazebo      # or ln -s …
+# 2. Copy Gazebo assets and init script to your home directory
+cp -r gazebo ~/gazebo
+cp init_gazebo.sh ~/
 
-# 3. Build ROS workspace (once per pull/clone)
-cd catkin_ws
-catkin_make
+# 3. Copy a specific simulation package to your own ROS workspace
+cp -r catkin_ws/sim-1gs ~/catkin_ws/src/
+
+# 4. Build your workspace (run from ~/catkin_ws)
+cd ~/catkin_ws
+catkin build
+
+# 5. In every new terminal session
+source ~/init_gazebo.sh
 source devel/setup.bash
 
-# 4. For every new terminal session
-cd /path/to/drone-sim-repo
-source init_gazebo.sh
-source catkin_ws/devel/setup.bash
+# Automate this in ~/.bashrc (optional)
+echo 'source ~/init_gazebo.sh' >> ~/.bashrc
+echo 'source ~/catkin_ws/devel/setup.bash' >> ~/.bashrc
 
-# 5. Launch a simulation
-roslaunch sim-1gb drone.launch
+# 6. Launch a simulation
+roslaunch sim-1gs drone.launch
 ```
 
-That’s it—happy simulating!
+---
+
+That’s it. Happy simulating!

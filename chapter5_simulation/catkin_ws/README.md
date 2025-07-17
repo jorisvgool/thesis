@@ -1,30 +1,31 @@
-# Drone Simulation Package Index
+# Quadrotor Simulation Package Index
 
-This Catkin workspace contains multiple simulation packages, each representing a particular drone setup or algorithmic feature.  
-Package names stay short and lowercase so you can read the intent at a glance—even though they keep their hyphens.
+This Catkin workspace contains multiple simulation packages, each representing a specific quadrotor setup or algorithmic feature.  
+Package names are intentionally short and lowercase, with hyphens, so their purpose is easy to read at a glance.
 
 ---
 
 ## Naming Convention
 
 ```
-sim-[#drones][flags]
+sim-[#quadrotors][flags]
 ```
 
-- **`#drones`** – exact number of drones in the scenario  
-- **Flags** (one or many, in any order)
+- **`#quadrotors`** – exact number of quadrotors in the scenario  
+- **Flags** – one or more lowercase letters, combined in any order:
 
-| Flag | Meaning                                                                                 |
-|------|-----------------------------------------------------------------------------------------|
-| **g** | **G**lobal / world-fixed frame                                                         |
-| **b** | **B**ase (standard formation or “plain” behaviour)                                     |
-| **r** | **R**otational motion around the team’s centroid                                       |
-| **c** | **C**ircling – each agent rotates around its own moving centre                         |
-| **l** | **L**ocal frame–centric behaviour                                                      |
-| **a** | **A**rUco-marker detection                                                             |
-| **k** | **K**alman filter enabled                                                              |
-| **s** | Kalman-driven **s**ine-wave control                                                    |
-| **t** | **T**ranslational (linear) team motion                                                 |
+| Flag | Meaning                                                                                                |
+|------|--------------------------------------------------------------------------------------------------------|
+| **g** | **G**lobal — simulation uses a world-fixed (global) reference frame                                   |
+| **l** | **L**ocal — simulation uses the quadrotor's body-fixed (local) reference frame                        |
+| **b** | **B**ase — basic gradient-based formation control                                                     |
+| **r** | **R**otational — distributed, centroid-based rotation of the entire formation                         |
+| **c** | **C**ircling — distributed, agent-based rotation of the entire formation                              |
+| **t** | **T**ranslational — distributed, rigid translational motion of the formation                          |
+| **k** | **K**alman — predictive control using a Kalman filter                                                 |
+| **s** | **S**inusoidal — sinusoidal motion with Kalman predictive control                                     |
+| **a** | **A**rUco — ArUco marker detection with virtual control framework                                     |
+
 
 *Combine letters to stack behaviours (e.g. `gk` = global + Kalman filter).*
 
@@ -32,40 +33,38 @@ sim-[#drones][flags]
 
 ## Package Overview
 
-| Simulation Description                                               | Package Name |
-|----------------------------------------------------------------------|--------------|
-| 1 drone — global, base behaviour                                     | `sim-1gb`    |
-| 2 drones — global, base behaviour                                    | `sim-2gb`    |
-| 3 drones — global, base behaviour                                    | `sim-3gb`    |
-| 3 drones — global, rotational motion around centroid                 | `sim-3gr`    |
-| 3 drones — global, agent-based circling                              | `sim-3gc`    |
-| 3 drones — global, translational team motion                         | `sim-3gt`    |
-| 2 drones — **local-frame** operation with ArUco detection            | `sim-2la`    |
-| 1 drone  — local-frame operation with ArUco detection                | `sim-1la`    |
-| 1 drone  — global frame with Kalman filter                           | `sim-1gk`    |
-| 1 drone  — global frame, Kalman filter + sine-wave control           | `sim-1gs`    |
+| Simulation Description                                                       | Package Name |
+|------------------------------------------------------------------------------|--------------|
+| 1 quadrotor — global frame, Kalman filter + sinusoidal motion                | `sim-1gs`    |
+| 1 quadrotor — global frame with Kalman filter                                | `sim-1gk`    |
+| 1 quadrotor — global, base behaviour                                         | `sim-1gb`    |
+| 2 quadrotors — global, base behaviour                                        | `sim-2gb`    |
+| 3 quadrotors — global, base behaviour                                        | `sim-3gb`    |
+| 3 quadrotors — global, rotational motion around centroid                     | `sim-3gr`    |
+| 3 quadrotors — global, agent-based circling                                  | `sim-3gc`    |
+| 3 quadrotors — global, translational formation motion                        | `sim-3gt`    |
+| 2 quadrotors — local-frame operation with ArUco detection                    | `sim-2la`    |
+| 1 quadrotor — local-frame operation with ArUco detection                     | `sim-1la`    |
 
-Feel free to mix additional flag letters when new behaviours are added; just append them to the package name.
 
 ---
 
 ## Usage
 
-Every package contains its own launch files, scripts and configuration. All depend on **`rospy`** and can be built and run independently.
+Each simulation package is self-contained with its own launch files, scripts, and configuration.
 
-### Build the workspace
 ```bash
+# 1. Copy the desired simulation package to your catkin workspace
+cp -r chapter5_simulation/catkin_ws/sim-1gb ~/catkin_ws/src/
+
+# 2. Rebuild your workspace
 cd ~/catkin_ws
-catkin_make
-source devel/setup.bash        # re-source whenever you add new packages
-```
+catkin build
+source devel/setup.bash
 
-### Launch a simulation (example)
-```bash
+# 3. Launch the simulation
+source ~/init_gazebo.sh
 roslaunch sim-1gb drone.launch
+
+# Replace 'sim-1gb' with any other package name as needed
 ```
-Adjust the package name and launch file to suit your test.
-
----
-
-Happy flying!
