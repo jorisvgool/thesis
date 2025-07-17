@@ -1,71 +1,79 @@
-# Drone Simulation Package Index
+# Chapter 6 – Real-World Quadrotor Experiments
 
-This Catkin workspace contains multiple simulation packages, each representing a particular drone setup or algorithmic feature.  
-Package names stay short and lowercase so you can read the intent at a glance—even though they keep their hyphens.
+This folder contains real-world flight experiments conducted using a **Holybro X500 V2 quadrotor** equipped with a **Pixhawk 6C flight controller** running **PX4**. The onboard computer is a **Raspberry Pi 4 Model B** running ROS Noetic and MAVROS.
+
+These experiments are meant to demonstrate and evaluate the real-time performance of the quadrotor control system developed during this thesis.
+
+> **IMPORTANT:** Before proceeding, please follow the [INSTALL.md](../chapter5_simulation/INSTALL.md) guide to install **ROS**, **MAVROS**, and **PX4** on the Raspberry Pi 4 Model B. This setup is mandatory to run any of the experiments successfully.
 
 ---
 
-## Naming Convention
+## Repository Structure
 
 ```
-sim-[#drones][flags]
+chapter6_experiments/
+├── catkin_ws/           # ROS workspace containing the experiment packages
+│   ├── experiment1/     # Experiment 1 package (details in its own README)
+│   ├── experiment2/     # Experiment 2 package
+│   └── experiment3/     # Experiment 3 package
+├── raw_data/            # Logged raw data from real flights
+├── videos/              # Video recordings of the experiments
+└── README.md            # This file
 ```
 
-- **`#drones`** – exact number of drones in the scenario  
-- **Flags** (one or many, in any order)
-
-| Flag | Meaning                                                                                 |
-|------|-----------------------------------------------------------------------------------------|
-| **g** | **G**lobal / world-fixed frame                                                         |
-| **b** | **B**ase (standard formation or “plain” behaviour)                                     |
-| **r** | **R**otational motion around the team’s centroid                                       |
-| **c** | **C**ircling – each agent rotates around its own moving centre                         |
-| **l** | **L**ocal frame–centric behaviour                                                      |
-| **a** | **A**rUco-marker detection                                                             |
-| **k** | **K**alman filter enabled                                                              |
-| **s** | Kalman-driven **s**ine-wave control                                                    |
-| **t** | **T**ranslational (linear) team motion                                                 |
-
-*Combine letters to stack behaviours (e.g. `gk` = global + Kalman filter).*
-
 ---
 
-## Package Overview
+## Running Experiments on the Quadrotor
 
-| Simulation Description                                               | Package Name |
-|----------------------------------------------------------------------|--------------|
-| 1 drone — global, base behaviour                                     | `sim-1gb`    |
-| 2 drones — global, base behaviour                                    | `sim-2gb`    |
-| 3 drones — global, base behaviour                                    | `sim-3gb`    |
-| 3 drones — global, rotational motion around centroid                 | `sim-3gr`    |
-| 3 drones — global, agent-based circling                              | `sim-3gc`    |
-| 3 drones — global, translational team motion                         | `sim-3gt`    |
-| 2 drones — **local-frame** operation with ArUco detection            | `sim-2la`    |
-| 1 drone  — local-frame operation with ArUco detection                | `sim-1la`    |
-| 1 drone  — global frame with Kalman filter                           | `sim-1gk`    |
-| 1 drone  — global frame, Kalman filter + sine-wave control           | `sim-1gs`    |
+### Prerequisites
 
-Feel free to mix additional flag letters when new behaviours are added; just append them to the package name.
+1. A **Raspberry Pi 4 Model B** with Ubuntu 20.04 installed.
+2. Follow the [INSTALL.md](../chapter5_simulation/INSTALL.md) to install:
+   - ROS Noetic
+   - MAVROS (via binary or source)
+   - PX4 Autopilot integration
+3. Ensure a stable **SSH connection** to the Raspberry Pi for launching the experiments remotely.
 
----
+### Experiment Packages
 
-## Usage
+Each experiment is defined as a standard ROS package inside `catkin_ws/`.  
+To run an experiment:
 
-Every package contains its own launch files, scripts and configuration. All depend on **`rospy`** and can be built and run independently.
-
-### Build the workspace
 ```bash
+# On your local machine (connected via SSH):
+ssh pi@<raspberry-pi-address>
+
+# Then on the Raspberry Pi:
 cd ~/catkin_ws
-catkin_make
-source devel/setup.bash        # re-source whenever you add new packages
-```
+catkin build
+source devel/setup.bash
 
-### Launch a simulation (example)
-```bash
-roslaunch sim-1gb drone.launch
+# Launch the desired experiment
+roslaunch experiment1 control.launch
 ```
-Adjust the package name and launch file to suit your test.
 
 ---
 
-Happy flying!
+## Safety Notice
+
+**Real-world quadrotor testing comes with serious safety risks. Please follow these guidelines strictly:**
+
+- Always fly in a **controlled, enclosed indoor laboratory** environment.
+- **Secure the quadrotor with a safety rope** during early test flights to prevent injury or damage.
+- **Recharge LiPo batteries only in a fireproof safety pouch** and under supervision.
+
+---
+
+## Hardware Setup
+
+- **Quadrotor frame**: Holybro X500 V2  
+- **Flight controller**: Pixhawk 6C  
+- **Companion computer**: Raspberry Pi 4 Model B (4 GB recommended)  
+- **Firmware**: PX4 Autopilot
+
+Official setup instructions and specs for this platform can be found here:  
+[Holybro X500 V2 with Pixhawk 6C (PX4 Docs)](https://docs.px4.io/main/en/frames_multicopter/holybro_x500V2_pixhawk5x.html)
+
+---
+
+That's it. Happy flying!
