@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
+# This file defines custom functions utilized across various simulations and experiments.
+# Last edited: 17/07/2025
+# Author: Joris van Gool
+
+# Imports
 import numpy as np
 import os
 import re
 
+# Funcions find path for saving logs
 def log_path(log_dir_name="logs", log_filename_prefix="drone_log"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     log_dir = os.path.join(script_dir, log_dir_name)
@@ -16,6 +22,7 @@ def log_path(log_dir_name="logs", log_filename_prefix="drone_log"):
     log_path = os.path.join(log_dir, f"{log_filename_prefix}{next_number}.csv")
     return log_path
 
+# Funcion (class) PID controller
 class PID:
     def __init__(self, Kp, Ki, Kd, dt, output_limits=(None, None)):
         self.Kp = Kp
@@ -40,14 +47,15 @@ class PID:
 
         return output
 
+# Funcions saving log to path
 def save_log(log_data, path, header):
     import csv
     with open(path, "w", newline="") as f:
         writer = csv.writer(f)
-        if header is not None:
-            writer.writerow(header)
+        writer.writerow(header)
         writer.writerows(log_data)
 
+# Function block diagonal matrix in 2D
 def block_diag(z):
     Dz = np.zeros((6, 3))
     for i in range(3):

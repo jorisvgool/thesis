@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Formation control node ArUco
-# Last edited: 18/06/2025
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    Formation control node ArUco                     #")
-print("#    Last edited: 18/06/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 
@@ -184,8 +184,8 @@ def main():
         # FORMATION state
         elif control_state == FORMATION:
             # Drone's altitude
-            x = current_pose.pose.position.z + t[0] # ** only for performance
-            y = current_pose.pose.position.z + t[1] # ** measurements
+            x = current_pose.pose.position.x + t[0] # ** only for performance
+            y = current_pose.pose.position.y + t[1] # ** measurements
             h = current_pose.pose.position.z + t[2]
 
             # Calculate & update dt for PID

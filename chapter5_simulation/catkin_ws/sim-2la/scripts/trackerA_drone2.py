@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # ArUco marker detection code - drone 2
-# Last edited: 11/06/2025
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    ArUco marker detection code - drone 2            #")
-print("#    Last edited: 18/06/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 

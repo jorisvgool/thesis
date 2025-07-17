@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Formation control node ArUco - drone 1
-# Last edited: 04/07/2025 
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    Formation control node ArUco - drone 1           #")
-print("#    Last edited: 04/07/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Formation control node (global) - drone 1
-# Last edited: 18/06/2025
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    Formation control node (global) - drone 1        #")
-print("#    Last edited: 18/06/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 
@@ -54,7 +54,8 @@ def main():
 
     # Logbook
     log_data = [] 
-    atexit.register(lambda: cf.save_log(log_data, cf.log_path() ))
+    header = ["time", "e1", "e2", "e3", "z1", "z2", "z3", "x", "y", "h"]
+    atexit.register(lambda: cf.save_log(log_data, cf.log_path(), header))
 
     # State machine
     TAKEOFF = 0
@@ -127,10 +128,10 @@ def main():
         ], dtype=float)
 
     # Motion parameters
-    mu = 0.1*np.array([2.60706987884237, 0.260706987884236,
-               2.99813036066872, 0, 0, 0])
-    mu_tilde = 0.1*np.array([1.30353493942118, 3.64989783037932,
-                     0.91247445759483, 0, 0, 0])
+    mu = 0.2*np.array([0.962250448652924, 0.192450089730585,
+               1.73205080757527, 0, 0, 0])
+    mu_tilde = 0.2*np.array([0.962250448652927, 1.73205080757527,
+                     0.192450089730585, 0, 0, 0])
 
     # Define A matrix
     A = np.zeros_like(Bv, dtype=float)

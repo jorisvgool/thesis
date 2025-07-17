@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Formation control node kalman
-# Last edited: 03/07/2025
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    Formation control node (kalman)                  #")
-print("#    Last edited: 03/07/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 

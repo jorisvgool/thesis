@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 # Formation control node (global) - drone 1
-# Last edited: 18/06/2025
+# Last edited: 17/07/2025
 # Author: Joris van Gool
 
 print("#######################################################")
 print("#    Formation control node (global) - drone 1        #")
-print("#    Last edited: 18/06/2025                          #")
+print("#    Last edited: 17/07/2025                          #")
 print("#    Author: Joris van Gool                           #")
 print("#######################################################")
 
@@ -50,7 +50,8 @@ def main():
 
     # Logbook
     log_data = [] 
-    atexit.register(lambda: cf.save_log(log_data, cf.log_path() ))
+    header = ["time", "e1", "e2", "e3", "z1", "z2", "z3", "x", "y", "h"]
+    atexit.register(lambda: cf.save_log(log_data, cf.log_path(), header))
 
     # State machine
     TAKEOFF = 0
