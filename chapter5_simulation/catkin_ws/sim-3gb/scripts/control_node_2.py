@@ -220,8 +220,8 @@ def main():
 
             # Calculate control law
             p_dot = -c1 * B_bar @ Dz @ Dz_tilde @ e
-            x_dot = np.clip(p_dot[0], -vLIM, vLIM)
-            y_dot = np.clip(p_dot[1], -vLIM, vLIM)
+            x_dot = np.clip(p_dot[2], -vLIM, vLIM)
+            y_dot = np.clip(p_dot[3], -vLIM, vLIM)
 
             # Publish errors
             # ep = z_norm - d

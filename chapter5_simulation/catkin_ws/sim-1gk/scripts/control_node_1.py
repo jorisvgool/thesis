@@ -228,7 +228,7 @@ def main():
 
             # Move anchors
             if ttime > 30:
-                b[0] += 0.69*dt
+                b[0] += 1*dt
                 a = b - b0
             
             if ttime > 60:
