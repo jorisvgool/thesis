@@ -1,71 +1,57 @@
-# Drone Simulation Package Index
+# Chapter 3 - Formation Control Simulations
 
-This Catkin workspace contains multiple simulation packages, each representing a particular drone setup or algorithmic feature.  
-Package names stay short and lowercase so you can read the intent at a glance—even though they keep their hyphens.
+This folder contains MATLAB scripts and functions related to **gradient-based formation control** and **distributed motion control** for multi-agent systems, as discussed in Chapter 3 of the thesis.
 
----
+## File Overview
 
-## Naming Convention
+- **README.md**  
+  This file. Provides an overview of the simulation files and their purposes.
 
-```
-sim-[#drones][flags]
-```
+### Formation Control Simulations
 
-- **`#drones`** – exact number of drones in the scenario  
-- **Flags** (one or many, in any order)
+- **gradient_control_2D.m**  
+  Simulates gradient-based formation control for a **triangular formation** in 2D.
 
-| Flag | Meaning                                                                                 |
-|------|-----------------------------------------------------------------------------------------|
-| **g** | **G**lobal / world-fixed frame                                                         |
-| **b** | **B**ase (standard formation or “plain” behaviour)                                     |
-| **r** | **R**otational motion around the team’s centroid                                       |
-| **c** | **C**ircling – each agent rotates around its own moving centre                         |
-| **l** | **L**ocal frame–centric behaviour                                                      |
-| **a** | **A**rUco-marker detection                                                             |
-| **k** | **K**alman filter enabled                                                              |
-| **s** | Kalman-driven **s**ine-wave control                                                    |
-| **t** | **T**ranslational (linear) team motion                                                 |
+- **gradient_control_2D_sq.m**  
+  Simulates gradient-based formation control for a **square formation** in 2D.
 
-*Combine letters to stack behaviours (e.g. `gk` = global + Kalman filter).*
+- **gradient_control_3D.m**  
+  Simulates gradient-based formation control for a **triangular formation** in 3D.
 
----
+### Distributed Motion Control
 
-## Package Overview
+- **motion_control_example.m**  
+  Demonstrates distributed control of formation **translation and rotation** using motion parameters. This is one of the **examples** featured in the thesis.
 
-| Simulation Description                                               | Package Name |
-|----------------------------------------------------------------------|--------------|
-| 1 drone — global, base behaviour                                     | `sim-1gb`    |
-| 2 drones — global, base behaviour                                    | `sim-2gb`    |
-| 3 drones — global, base behaviour                                    | `sim-3gb`    |
-| 3 drones — global, rotational motion around centroid                 | `sim-3gr`    |
-| 3 drones — global, agent-based circling                              | `sim-3gc`    |
-| 3 drones — global, translational team motion                         | `sim-3gt`    |
-| 2 drones — **local-frame** operation with ArUco detection            | `sim-2la`    |
-| 1 drone  — local-frame operation with ArUco detection                | `sim-1la`    |
-| 1 drone  — global frame with Kalman filter                           | `sim-1gk`    |
-| 1 drone  — global frame, Kalman filter + sine-wave control           | `sim-1gs`    |
+- **motion_control_sandbox.m**  
+  A sandbox script to help understand and experiment with how the motion parameter functions work.
 
-Feel free to mix additional flag letters when new behaviours are added; just append them to the package name.
+### Motion Parameter Functions
+
+- **mu_rotation.m**  
+  Computes the motion parameters for **rotational movement** of the formation.
+
+- **mu_translation.m**  
+  Computes the motion parameters for **translational movement** of the formation.
 
 ---
 
-## Usage
+## Requirements
 
-Every package contains its own launch files, scripts and configuration. All depend on **`rospy`** and can be built and run independently.
+- MATLAB (tested with R2024a)
+- No additional toolboxes are required.
 
-### Build the workspace
-```bash
-cd ~/catkin_ws
-catkin_make
-source devel/setup.bash        # re-source whenever you add new packages
+## How to Use
+
+1. Open any of the simulation scripts (e.g., `gradient_control_2D.m`) in MATLAB.
+2. Run the script to visualize agent behavior under different control laws.
+3. For distributed motion control, explore `motion_control_example.m` first.
+4. Use `motion_control_sandbox.m` to learn about the motion parameters.
+
+## Citation
+
+If you use these scripts for your own work, please cite the following source:
+```text
+van Gool, J. P. (2025). Distributed rigid formation motion control of 
+multi-agent systems (Master’s thesis, University of Groningen).
 ```
-
-### Launch a simulation (example)
-```bash
-roslaunch sim-1gb drone.launch
-```
-Adjust the package name and launch file to suit your test.
-
----
-
-Happy flying!
