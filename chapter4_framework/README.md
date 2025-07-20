@@ -1,71 +1,36 @@
-# Drone Simulation Package Index
+# Chapter 4 Theoretical framework
 
-This Catkin workspace contains multiple simulation packages, each representing a particular drone setup or algorithmic feature.  
-Package names stay short and lowercase so you can read the intent at a glance—even though they keep their hyphens.
+This folder contains the implementation of the control and estimation strategies developed in **Chapter 4**.
 
----
+Each module corresponds to a specific part of the unified formation control framework, covering predictive motion estimation, agent-based rotational control, and virtual-local coordination using onboard vision.
 
-## Naming Convention
+## Folder Structure
 
 ```
-sim-[#drones][flags]
+chapter4_framework/
+├── agent_rotational/          # Section 4.4: Agent-centered rotational motion
+├── kalman_rotational/         # Section 4.5: Predictive rotational control (Kalman filter)
+├── kalman_translational/      # Section 4.1: Predictive translational control (Kalman filter)
+├── virtual_local/             # Section 4.3: Virtual-agent-based local formation control
+└── README.md
 ```
 
-- **`#drones`** – exact number of drones in the scenario  
-- **Flags** (one or many, in any order)
+## Module Overview
 
-| Flag | Meaning                                                                                 |
-|------|-----------------------------------------------------------------------------------------|
-| **g** | **G**lobal / world-fixed frame                                                         |
-| **b** | **B**ase (standard formation or “plain” behaviour)                                     |
-| **r** | **R**otational motion around the team’s centroid                                       |
-| **c** | **C**ircling – each agent rotates around its own moving centre                         |
-| **l** | **L**ocal frame–centric behaviour                                                      |
-| **a** | **A**rUco-marker detection                                                             |
-| **k** | **K**alman filter enabled                                                              |
-| **s** | Kalman-driven **s**ine-wave control                                                    |
-| **t** | **T**ranslational (linear) team motion                                                 |
+- **`agent_rotational/`**  
+  Implements local rotational control where each agent enforces rigidity through angular correction.  
+  _Refer to Section 4.4 of the thesis._
 
-*Combine letters to stack behaviours (e.g. `gk` = global + Kalman filter).*
+- **`kalman_rotational/`**  
+  Kalman filter-based prediction of rotational motion for distributed control under dynamic conditions.  
+  _Refer to Section 4.5._
 
----
+- **`kalman_translational/`**  
+  Predictive translational motion control using Kalman filtering for formations with passive agents.  
+  _Refer to Section 4.1._
 
-## Package Overview
+- **`virtual_local/`**  
+  Virtual-agent-based local formation control using only onboard camera sensing (no inter-agent communication).  
+  _Refer to Section 4.3._
 
-| Simulation Description                                               | Package Name |
-|----------------------------------------------------------------------|--------------|
-| 1 drone — global, base behaviour                                     | `sim-1gb`    |
-| 2 drones — global, base behaviour                                    | `sim-2gb`    |
-| 3 drones — global, base behaviour                                    | `sim-3gb`    |
-| 3 drones — global, rotational motion around centroid                 | `sim-3gr`    |
-| 3 drones — global, agent-based circling                              | `sim-3gc`    |
-| 3 drones — global, translational team motion                         | `sim-3gt`    |
-| 2 drones — **local-frame** operation with ArUco detection            | `sim-2la`    |
-| 1 drone  — local-frame operation with ArUco detection                | `sim-1la`    |
-| 1 drone  — global frame with Kalman filter                           | `sim-1gk`    |
-| 1 drone  — global frame, Kalman filter + sine-wave control           | `sim-1gs`    |
-
-Feel free to mix additional flag letters when new behaviours are added; just append them to the package name.
-
----
-
-## Usage
-
-Every package contains its own launch files, scripts and configuration. All depend on **`rospy`** and can be built and run independently.
-
-### Build the workspace
-```bash
-cd ~/catkin_ws
-catkin_make
-source devel/setup.bash        # re-source whenever you add new packages
-```
-
-### Launch a simulation (example)
-```bash
-roslaunch sim-1gb drone.launch
-```
-Adjust the package name and launch file to suit your test.
-
----
-
-Happy flying!
+  **See the `README.md` files in the respective folders for more details on individual scripts and functions.**
