@@ -1,6 +1,6 @@
-# Chapter 3 - Formation Control Simulations
+# Chapter 3 - Dsitributed motion control of formations
 
-This folder contains MATLAB scripts and functions related to **gradient-based formation control** and **distributed motion control** for multi-agent systems, as discussed in Chapter 3 of the thesis.
+This folder contains MATLAB scripts and functions related to **gradient-based formation control** and **distributed motion control** for multi-agent systems, as discussed in Chapter 3.
 
 ## File Overview
 
