@@ -44,13 +44,12 @@ If you use this repository or any part of the thesis in your own work, please ci
 
 ```bibtex
 @mastersthesis{vangool2025thesis,
-  author    = {{van Gool}, Joris Pieter},
+  author    = {{van Gool}, Joris},
   title     = {Distributed Rigid Formation Motion Control of Multi-Agent Systems},
   school    = {University of Groningen},
   year      = {2025},
   month     = {9},
   type      = {Master's Thesis},
-  note      = {Supervised by Prof. dr. ir. Bayu Jayawardhana and Dr. Bahar Haghighat},
   annote    = {Available at https://github.com/jorisvgool/thesis}
 }
 ```
