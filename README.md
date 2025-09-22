@@ -1,6 +1,6 @@
-# Distributed Rigid Formation Motion Control of Multi-Agent Systems
+# Vision-Based Decentralized Formation Motion Control with Predictive Methods
 
-This repository contains supplementary materials for the Master's thesis **"Distributed Rigid Formation Motion Control of Multi-Agent Systems"** by **Joris van Gool**, submitted at the University of Groningen.
+This repository contains supplementary materials for the Master's thesis **"Vision-Based Decentralized Formation Motion Control with Predictive Methods"** by **Joris van Gool**, submitted at the University of Groningen.
 
 The repository is organized into folders that correspond to the main chapters of the thesis. Each folder includes a `README.md` file for further navigation and explanation.
 
@@ -45,7 +45,7 @@ If you use this repository or any part of the thesis in your own work, please ci
 ```bibtex
 @mastersthesis{vangool2025thesis,
   author    = {{van Gool}, Joris},
-  title     = {Distributed Rigid Formation Motion Control of Multi-Agent Systems},
+  title     = {Vision-Based Decentralized Formation Motion Control with Predictive Methods},
   school    = {University of Groningen},
   year      = {2025},
   month     = {9},
